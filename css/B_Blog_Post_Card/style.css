@@ -1,0 +1,16 @@
+body{
+    background-color: rgba(250, 235, 215, 0.815);
+}
+.blog-post-card {
+    background: rgb(236, 230, 230);
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+}
+
+.post-img{
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
