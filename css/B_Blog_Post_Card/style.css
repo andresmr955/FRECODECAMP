@@ -21,3 +21,7 @@ body{
     text-align: center;
 }
 
+.post-title, .post-excerpt{
+    color: rgb(12, 12, 92);
+}
+
