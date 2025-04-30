@@ -15,3 +15,9 @@ body{
     border-radius: 20px 20px 0 0;
     border-bottom: 4px solid black;
 }
+
+.post-content{
+    padding: 20px;
+    text-align: center;
+}
+
