@@ -35,3 +35,7 @@ body{
     text-decoration: none;
 }
 
+.read-more:hover{
+    background-color: rgb(102, 102, 95);
+    
+}
