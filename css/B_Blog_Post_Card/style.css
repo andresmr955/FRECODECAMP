@@ -25,3 +25,13 @@ body{
     color: rgb(12, 12, 92);
 }
 
+.read-more{
+    color: rgb(248, 245, 245);
+    background-color: rgb(19, 17, 17);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
