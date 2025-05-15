@@ -78,3 +78,17 @@ blockquote{
     margin: 0 auto 50px auto;
     text-align: left;
 }
+
+
+
+@media (max-width: 980px) {
+  #img-div {
+    background-color: rgb(127, 173, 116);
+  }
+}
+
+@media (max-width: 768px) {
+  #img-div {
+    background-color: rgb(173, 116, 116);
+  }
+}
