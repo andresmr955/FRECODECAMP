@@ -128,16 +128,19 @@ tr.data {
 
 tr.data th {
   text-align: left;
+ 
   padding-top: 0.3rem;
   padding-left: 0.5rem;
 }
 
 tr.data th .description {
+ 
   display: block;
   font-weight: normal;
   font-style: italic;
   padding: 1rem 0 0.75rem;
   margin-right: -13.5rem;
+   
 }
 
 tr.data td {
@@ -149,3 +152,4 @@ tr.data td {
 tr.data td{
     padding-right: 0.5rem;
 }
+
