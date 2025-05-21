@@ -209,3 +209,126 @@ body{
 }
 
 
+
+
+/* ------------------------------------------------ */
+ nav {
+      z-index: 1000;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      margin: 0;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.youtube-logo{
+    width: 130px;
+    height: 80px;
+    background-color: rgba(255, 0, 0, 1);
+    position: relative;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.play-button{
+    width: 0;
+    height: 0;
+    border-left: 40px solid white;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+.element {
+    position: relative;
+    width: 200px;
+    padding-bottom: 20px; /* Space for the border */
+    margin-bottom: 20px; /* Space between .element and .box */
+    top: 50px;
+    
+    
+   
+}
+
+
+.element::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: linear-gradient(to right, #5e5e5e 85%, #45454f 100%);
+}
+
+.triangle {
+  position: relative;
+  top: -6px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 80px;
+  border-color: black transparent transparent transparent;
+  border-radius: 212% / 250px 200px 0 0;
+}
+
+.beard{
+    position: relative;
+    top: -15px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 80px;
+    border-color: black transparent transparent transparent;
+    border-radius: 212% / 250px 200px 0 0;
+}
