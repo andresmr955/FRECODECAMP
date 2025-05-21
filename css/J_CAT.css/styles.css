@@ -60,3 +60,44 @@ body{
     border-bottom: 70px solid rgb(16, 13, 27);
     transform: rotate(45deg);
 }
+
+
+
+.cat-left-inner-ear{
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 40px solid white;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+}
+
+.cat-right-inner-ear{
+    position: absolute;
+    top: 22px;
+    left: -20px;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 40px solid white;
+    border-bottom-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 10px;
+      
+
+}
+
+.cat-left-eye{
+  width: 30px;
+  height: 40px;
+  background-color: #000;
+  position: absolute;
+  top: 54px;
+  left: 39px;
+  border-radius: 60%;
+  transform: rotate(90deg);
+}
