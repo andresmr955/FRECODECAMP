@@ -150,3 +150,46 @@ body{
   border-bottom-left-radius: 20px;
   transform: rotate(180deg);
 }
+
+.nose-left-inner {
+  position: absolute;
+  top: 108px; /* 100 + 12 */
+  left: 86px; /* 80 - 15 */
+  width: 0;
+  height: 0;
+
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid rgb(248, 248, 252);
+  border-right: 8px solid transparent;
+
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  transform: rotate(39deg);
+}
+
+.nose-right-inner {
+  position: absolute;
+  top: 108px;
+  left: 98px; /* 80 - 1 */
+  width: 0;
+  height: 0;
+
+  border-left: 8px solid transparent;
+  border-bottom: 8px solid rgb(248, 243, 243);
+  border-right: 8px solid transparent;
+
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  transform: rotate(-39deg);
+}
+
+
+
+ .cat-mouth div{
+    width: 45px;
+    height: 50px;
+    /* background-color: red; */
+    border: 2px solid #000;
+    border-radius: 190%/190px 150px 0 0;
+    border-color: black transparent transparent transparent;
+}
