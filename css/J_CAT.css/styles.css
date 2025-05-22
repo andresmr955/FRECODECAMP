@@ -189,7 +189,7 @@ body{
     width: 45px;
     height: 50px;
     /* background-color: red; */
-    border: 2px solid #000;
+    border: 3.5px solid #000;
     border-radius: 190%/190px 150px 0 0;
     border-color: black transparent transparent transparent;
 }
@@ -209,6 +209,83 @@ body{
 }
 
 
+.beard{
+    position: relative;
+    top: -15px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 80px;
+    border-color: black transparent transparent transparent;
+    border-radius: 212% / 250px 200px 0 0;
+}
+
+.cat-whiskers-left div{
+    background-color: black;
+    width: 60px;
+    height: 2px;
+
+}
+
+.cat-whiskers-left-top{
+    position: absolute;
+    top: 120px;
+    left: 52px;
+    transform: rotate(10deg);
+
+}
+
+.cat-whiskers-left-top{
+    position: absolute;
+    top: 6px;
+    left: 4px;
+    transform: rotate(10deg);
+}
+
+.cat-whiskers-left-middle{
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    transform: rotate(8deg);
+}
+
+
+.cat-whiskers-left-bottom{
+    position: absolute;
+    top: -2px;
+    left: 8px;
+    transform: rotate(5deg);
+}
+
+
+.cat-whiskers-right div{
+    width: 60px;
+    height: 2px;
+    background-color: black;
+}
+
+.cat-whiskers-right-top{
+    position:absolute; 
+    top: 3px;
+    left: -66px;
+    transform: rotate(-6deg);
+}
+
+.cat-whiskers-right-middle{
+    position: absolute;
+    top: -2.5px;
+    left: -68px;
+    transform: rotate(-1deg);
+}
+
+.cat-whiskers-right-bottom{
+    
+    position: absolute;
+    top: -7px;
+    left: -70px;
+    transform: rotate(3deg);
+}
 
 
 /* ------------------------------------------------ */
@@ -255,22 +332,6 @@ body{
     position: relative;
     border-radius: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .play-button{
     width: 0;
@@ -319,16 +380,4 @@ body{
   border-width: 80px;
   border-color: black transparent transparent transparent;
   border-radius: 212% / 250px 200px 0 0;
-}
-
-.beard{
-    position: relative;
-    top: -15px;
-    left: 20px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 80px;
-    border-color: black transparent transparent transparent;
-    border-radius: 212% / 250px 200px 0 0;
 }
