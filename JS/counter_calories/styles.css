@@ -3,6 +3,7 @@
     --dark-blue: #0a0a23;
     --fcc-blue: #1b1b32;
     --light-yellow: #feac32;
+    --dark-yellow: #feac32;
     --light-pink: #ffafaf;
     --dark-red: #850000;
     --light-green: #acd157;
@@ -43,4 +44,18 @@ fieldset {
 legend {
   font-weight: bold;
   color: #007BFF;
+}
+
+button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--light-yellow);
+    border: 2px solid var(--dark-yellow)
+}
+
+button,
+input,
+select {
+  min-height: 24px;
+  color: var(--dark-blue);
 }
