@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Swiper Coverflow</title>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  />
+  <style>
+    body {
+      background: #222;
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 50px;
+    }
+    .swiper {
+      width: 600px;
+      height: 300px;
+    }
+    .swiper-slide {
+      background: #555;
+      color: white;
+      font-size: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px; /* muy importante para coverflow */
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 50,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      speed: 1000,
+      pagination: { el: '.swiper-pagination', clickable: true },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>

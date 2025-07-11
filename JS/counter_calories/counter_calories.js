@@ -10,6 +10,6 @@ let isError = false;
 
 function CleanInputString(str){
     const regex = /\+-/;
-
+ 
 }
 
