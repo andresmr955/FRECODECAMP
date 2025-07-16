@@ -29,8 +29,10 @@ function getRoundResults(userOption) {
 console.log(getRoundResults("Rock"));
 console.log("Player Score: ", playerScore, "Computer Score: ", computerScore);
 
-let playerScoreSpan = document.getElementById('player-score');
-let computerScoreSpan = document.getElementById('computer-score')
+const playerScoreSpanElement = document.getElementById("player-score");
+const computerScoreSpanElement = document.getElementById("computer-score");
+const roundResultsMsg = document.getElementById("results-msg");
 
-playerScoreSpan.innerHTML = playerScore;
-computerScoreSpan.innerHTML = computerScore;
+playerScoreSpanElement.innerHTML = playerScore;
+computerScoreSpanElement.innerHTML = computerScore;
+roundResultsMsg.innerHTML = getRoundResults()
