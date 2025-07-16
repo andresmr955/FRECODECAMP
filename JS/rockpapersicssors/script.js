@@ -40,18 +40,27 @@ function showResults(userOption) {
   roundResultsMsg.innerText = getRoundResults(userOption);
   computerScoreSpanElement.innerText = computerScore;
   playerScoreSpanElement.innerText = playerScore;
-  if(playerScore >= 3){
-    winnerMsgElement.innerHTML = "Player has won the game!";
-    optionsContainer.style.display = "none";
+
+  if (playerScore === 3 || computerScore === 3) {
+    winnerMsgElement.innerText = `${
+      playerScore === 3 ? "Player" : "Computer"
+    } has won the game!`;
+
     resetGameBtn.style.display = "block";
-  }else if(computerScore >= 3){
-    winnerMsgElement.innerHTML = "Computer has won the game!";
     optionsContainer.style.display = "none";
-    resetGameBtn.style.display = "block";
   }
 
 };
 
+function resetGame() {
+  playerScore = 0;
+  computerScore = 0;
+
+  
+};
+
+
+resetGameBtn.addEventListener("click", resetGame);
 
 const rockBtn = document.getElementById("rock-btn");
 const paperBtn = document.getElementById("paper-btn");
