@@ -28,3 +28,9 @@ function getRoundResults(userOption) {
 
 console.log(getRoundResults("Rock"));
 console.log("Player Score: ", playerScore, "Computer Score: ", computerScore);
+
+let playerScoreSpan = document.getElementById('player-score');
+let computerScoreSpan = document.getElementById('computer-score')
+
+playerScoreSpan.innerHTML = playerScore;
+computerScoreSpan.innerHTML = computerScore;
