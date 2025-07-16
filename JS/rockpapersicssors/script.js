@@ -59,7 +59,10 @@ function resetGame() {
   computerScoreSpanElement.innerText = computerScore;
   playerScoreSpanElement.innerText = playerScore;
 
-  
+  resetGameBtn.style.display = "none";
+  optionsContainer.style.display = "block";
+
+
 };
 
 
