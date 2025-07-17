@@ -14,5 +14,19 @@ let allSongs = [
         duration: "4:25", 
         src:"https://www.youtube.com/watch?v=afDEunyLpyw&list=RDafDEunyLpyw&start_radio=1&ab_channel=CafeRecords" 
 
+    },
+    {
+    id: 1,
+    title: "Scratching The Surface",
+    artist: "Quincy Larson",
+    duration: "4:25",
+    src: "https://cdn.freecodecamp.org/curriculum/js-music-player/scratching-the-surface.mp3",
+    },
+    {
+        id: 2,
+title: "Still Learning",
+artist: "Quincy Larson",
+duration: "3:51",
+src: "https://cdn.freecodecamp.org/curriculum/js-music-player/still-learning.mp3",
     }
 ];
