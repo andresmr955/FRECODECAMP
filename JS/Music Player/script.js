@@ -91,6 +91,6 @@ let userData = {
 
 
 const renderSongs = (array) => {
-const songsHTML  = array.map()
+  const songsHTML = array.map((song) => {} );
 
 };
