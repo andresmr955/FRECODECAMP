@@ -102,5 +102,5 @@ aria-label="Delete  ${song.title}">
 </button>
       </li>
       `;
-    })
+    }).join(" ")  
 };
