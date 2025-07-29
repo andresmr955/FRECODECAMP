@@ -85,6 +85,6 @@ const audio = new Audio();
 
 let userData = {
   songs: [...allSongs],
-  currentSong: null, 
+  currentSong: null,
   songCurrentTime: 0
 };
