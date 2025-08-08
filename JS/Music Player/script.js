@@ -110,7 +110,7 @@ const renderSongs = (array) => {
 };
 
 
-renderSongs(sortSongs());
+// renderSongs(userData?.songs);
 
 const sortSongs = () => {
 
@@ -127,3 +127,9 @@ const sortSongs = () => {
   return userData?.songs;
 }
 
+renderSongs(sortSongs());
+
+
+const playSong = (id) => {
+  
+}
