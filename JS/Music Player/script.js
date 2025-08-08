@@ -104,3 +104,5 @@ aria-label="Delete  ${song.title}">
       `;
     }).join(" ")  
 };
+
+playlistSongs.innerHTML = songsHTML;
