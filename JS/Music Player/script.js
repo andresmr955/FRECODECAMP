@@ -109,7 +109,6 @@ const renderSongs = (array) => {
     playlistSongs.innerHTML = songsHTML;  
 };
 
-
 // renderSongs(userData?.songs);
 
 const sortSongs = () => {
@@ -140,4 +139,5 @@ const playSong = (id) => {
   }else {
     audio.currentTime = userData?.songCurrentTime
   }
+  userData.currentSong = song;
 }
