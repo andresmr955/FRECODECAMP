@@ -132,6 +132,9 @@ playButton.addEventListener("click", () => {
     {
       playSong(userData?.songs[0].id)
     }
+    else{
+      playSong(userData?.currentSong.id)
+    }
   });
 const sortSongs = () => {
 
