@@ -127,6 +127,7 @@ const renderSongs = (array) => {
 
 // renderSongs(userData?.songs);
 
+playButton.addEventListener("click", () => {} )
 const sortSongs = () => {
 
   userData?.songs.sort((a, b) => {
