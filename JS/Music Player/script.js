@@ -112,7 +112,7 @@ const renderSongs = (array) => {
       return `
       <li id="song-${song.id}" class="playlist-song"> 
 
-        <button class="playlist-song-info">
+        <button class="playlist-song-info" onclick='playSong(${song.id})'>
           <span class="playlist-song-title">${song.title}</span>
         </button>
         <button class="playlist-song-delete"aria-label="Delete  ${song.title}">
@@ -145,7 +145,7 @@ const sortSongs = () => {
     if (a.title > b.title){
       return 1;
     }
-    return 1;
+    return 0;
   });
 
   return userData?.songs;
