@@ -9,10 +9,10 @@ const shuffleButton = document.getElementById('shuffle');
 let allSongs = [
     {
         id: 0,
-        title: "Corazon Embustero",
-        artist: "Carlos Munoz", 
+        title: "Seven Years",
+        artist: "Lukas Graham", 
         duration: "4:25", 
-        src:"https://www.youtube.com/watch?v=afDEunyLpyw&list=RDafDEunyLpyw&start_radio=1&ab_channel=CafeRecords" 
+        src:"./mysongs/sevenyears.mp3" 
 
     },
     {
@@ -153,3 +153,4 @@ const sortSongs = () => {
 
 renderSongs(sortSongs());
 
+const pauseSong = () => {}
