@@ -153,4 +153,6 @@ const sortSongs = () => {
 
 renderSongs(sortSongs());
 
-const pauseSong = () => {}
+const pauseSong = () => {
+  userData.currTime = audio.currentTime
+}
