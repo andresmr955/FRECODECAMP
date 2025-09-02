@@ -154,6 +154,7 @@ const sortSongs = () => {
 renderSongs(sortSongs());
 
 const pauseSong = () => {
-  userData.currTime = audio.currentTime
-  audio.pause()
+  userData.currentTime = audio.currentTime;
+  playButton.classList.remove('playing');
+  audio.pause();
 }
