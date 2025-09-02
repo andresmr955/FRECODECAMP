@@ -155,4 +155,5 @@ renderSongs(sortSongs());
 
 const pauseSong = () => {
   userData.currTime = audio.currentTime
+  audio.pause()
 }
