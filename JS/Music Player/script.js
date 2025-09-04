@@ -188,3 +188,8 @@ const playPreviousSong = () => {
   }
 };
 previousButton.addEventListener("click", playPreviousSong);
+
+const highlightCurrentSong = () => {
+  const playlistSongElements = document.querySelectorAll(".playlist-song");
+
+}
