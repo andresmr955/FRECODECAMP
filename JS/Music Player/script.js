@@ -106,6 +106,8 @@ const playSong = (id) => {
 
 };
 
+playlistSongElements.forEach((songEl) => {});
+
 const renderSongs = (array) => {
   const songsHTML = array
     .map((song) => {
@@ -174,7 +176,7 @@ else{
   const nextSong = userData?.songs[currentSongIndex + 1];
   playSong(nextSong.id);
 }
-};
+};s
 
 nextButton.addEventListener("click", playNextSong);
 
