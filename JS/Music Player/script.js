@@ -147,7 +147,9 @@ const shuffle = () => {
   setPlayButtonAccessibleText();
 };
 
-const deleteSong = (id) => {};
+const deleteSong = (id) => {
+  userData.songs = userData?.songs.filter((song) => song.id !== id);
+};
 
 const setPlayerDisplay = () => {
   const playingSong = document.getElementById("player-song-title");
