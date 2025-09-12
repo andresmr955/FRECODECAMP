@@ -138,8 +138,12 @@ const setPlayerDisplay = () => {
   const playingSong = document.getElementById("player-song-title");
   const songArtist = document.getElementById("player-song-artist");
 
-  const currentTitle = userData?.currentSong?.title;
-  const currentSong = userData?.currentSong?.artist;
+  const currentArtist = userData?.currentSong?.artist;
+  const currentSong = userData?.currentSong?.song;
+
+  playingSong.textContent =  currentArtist ? currentArtist : "";
+  songArtist.textContent =  currentSong ? currentSong : "";
+ 
 };
 
 const highlightCurrentSong = () => {
