@@ -186,7 +186,7 @@ const renderSongs = (array) => {
 
 
 const setPlayButtonAccessibleText = () => {
-  
+  const song = userData?.songs[0] || userData?.currentSong; 
 };
 // renderSongs(userData?.songs);
 
