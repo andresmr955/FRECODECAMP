@@ -214,9 +214,6 @@ playButton.addEventListener("click", () => {
     }
   });
 
-
-
-
 const getCurrentSongIndex = () => {
   return userData?.songs.indexOf(userData?.currentSong);
 }
@@ -229,6 +226,7 @@ nextButton.addEventListener("click", playNextSong);
 
 previousButton.addEventListener("click", playPreviousSong);
 
+shuffleButton.addEventListener("click", shuffle);
 const sortSongs = () => {
 
   userData?.songs.sort((a, b) => {
