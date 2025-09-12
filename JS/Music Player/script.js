@@ -187,6 +187,8 @@ const renderSongs = (array) => {
 
 const setPlayButtonAccessibleText = () => {
   const song = userData?.songs[0] || userData?.currentSong; 
+    playButton.setAttribute("aria-label", song?.title ? `Play ${song.title}` : "Play");
+
 };
 // renderSongs(userData?.songs);
 
