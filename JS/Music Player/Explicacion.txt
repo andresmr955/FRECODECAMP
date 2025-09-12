@@ -1,0 +1,23 @@
+Explicacion
+
+- En el código, tenemos varias constantes que hacen referencia a diferentes elementos del DOM, como botones o títulos, usando document.getElementById. Esto nos permite manipular esos elementos directamente desde JavaScript para añadir funcionalidades.
+
+- Tenemos un array que contiene diferentes objetos, donde cada objeto representa una canción con sus características, como el título, el artista, la duración, la URL del archivo, entre otros.
+
+- Tenemos la instancia de un objeto Audio que forma parte de JavaScript vanilla (JavaScript puro, sin librerías ni frameworks). Este objeto nos permite reproducir, pausar y controlar archivos de audio directamente desde el navegador.
+
+- Se crea una variable llamada userData que es un objeto. Este objeto contiene diferentes canciones y otras características relacionadas, organizadas como propiedades y valores.
+
+- Tenemos un arrow function que necesita un ID como parámetro, se va usar inmediatamente apenas halla un id y lo que va hacer es crear un variable que guarde el proceso de buscar el primer parámetro que cumpla con la condición, que es recorre todas las canciones de mi usuario una por una y compara su id si es verdad lo devuelve y le asigna a mi variable audio la ruta y el nombre
+
+- Si entra a la condición que es que la cancion actual es null o si el id de la cancion actual es diferente.
+- Tenemos que después de la condición pasara a asignar song a la cancion actual del usuario 
+y se le creara una class para activar que esta sonando 
+y se llamara el método de play de audio
+
+- Después se crea un arrow function con un array como parámetro que permite recibe este array y recorrerlo y cada vez que hay una cancion, se usa para crear el HTML de la lista de canciones 
+- Se llama addEventListener sobre el play button ue permite saber si alguien hizo click, si es asi verificamos que currentsong sea null, si es asi llamara la función playSong y le pasara la primera cancion, gracias al indice de las canciones
+
+- Se crea una constante que organize las canciones, a partir de dos parámetros, estos serán 2 canciones guardadas, pero se hace a travez del método sort de js vanilla  y que devolverán -1 si el titulo a es menor que el segundo titulo, si no devolverá 1 que quiere decir que b va después.
+
+- se llama render Canciones que van a mostrar la list  de las canciones organizadas
