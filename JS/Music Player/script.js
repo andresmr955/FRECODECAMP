@@ -106,6 +106,7 @@ const playSong = (id) => {
   audio.play();
   highlightCurrentSong();
   setPlayerDisplay()
+  setPlayButtonAccessibleText();
 };
 
 const pauseSong = () => {
