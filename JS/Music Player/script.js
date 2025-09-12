@@ -105,6 +105,7 @@ const playSong = (id) => {
   highlightCurrentSong();
   audio.play();
   highlightCurrentSong();
+  setPlayerDisplay()
 };
 
 const pauseSong = () => {
@@ -139,7 +140,7 @@ const setPlayerDisplay = () => {
   const songArtist = document.getElementById("player-song-artist");
 
   const currentArtist = userData?.currentSong?.artist;
-  const currentSong = userData?.currentSong?.song;
+  const currentSong = userData?.currentSong?.title;
 
   playingSong.textContent =  currentArtist ? currentArtist : "";
   songArtist.textContent =  currentSong ? currentSong : "";
@@ -182,6 +183,11 @@ const renderSongs = (array) => {
     playlistSongs.innerHTML = songsHTML;  
 };
 
+
+
+const setPlayButtonAccessibleText = () => {
+  
+};
 // renderSongs(userData?.songs);
 
 playButton.addEventListener("click", () => {
